@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style/2-tip-calculator.css">
+  </head>
+
+  <body>
+    <div class="card">
+      <h1 class="header">Tip Calculator</h1>
+      <p>Enter the bill amount and tip percentage to calculate the total.</p>
+
+      <div>
+        <p class="bill-amount">Bill amount:</p>
+        <input class="input-holder js-bill-amount" type="number">
+      </div>
+      
+      <div>
+        <p class="tip-percentage">Tip percentage:</p>
+        <input class="input-holder js-tip-percentage" type="number">
+      </div>  
+
+      <button class="calculate-button js-calculate-button">CALCULATE</button>
+
+      <div class="total-container">
+        <span>Total:</span>
+        <span class="total-payment js-total-payment"></span>
+      </div>
+
+    </div>
+    
+    <script src="./scripts/2-tip-calculator.js"></script>
+
+  </body>
+</html>
