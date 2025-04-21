@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+}
+
+.card {
+  width: 90%;
+  max-width: 550px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px 3px rgba(77, 77, 77, 0.2);
+  position: absolute;
+  transform: translateX(-50%);
+  top: 30%;
+  left: 50%;
+}
+
+.date-text {
+  margin-bottom: 10px;
+}
+
+.birthdate-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.calculate-button {
+  width: 22%;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
