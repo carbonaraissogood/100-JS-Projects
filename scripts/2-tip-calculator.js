@@ -16,7 +16,7 @@ document.querySelector('.js-calculate-button').addEventListener('click', () => {
 
   const totalPaymentContainer = document.querySelector('.js-total-payment');
 
-  totalPaymentContainer.innerHTML += `${(totalAmount).toFixed(2)}`;
+  totalPaymentContainer.innerHTML += `$${(totalAmount).toFixed(2)}`;
 
   totalPaymentContainer.classList.add('bold');
 
