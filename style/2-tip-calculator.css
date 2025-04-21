@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background-color: wheat;
+}
+
+.card {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 3px rgba(77, 77, 77, 0.2);
+  position: absolute;
+  transform: translateX(-50%);
+  top: 30%;
+  left: 50%;
+}
+
+.header {
+  text-align: center;
+}
+
+.bill-amount,
+.tip-percentage {
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.input-holder,
+.calculate-button {
+  width: 100%; /* Set the same width for both input boxes and the button */
+  padding: 10px;
+  margin: 0 auto; /* Center them horizontally */
+  display: block; /* Ensure they are block-level elements */
+  box-sizing: border-box;
+}
+
+
+.calculate-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: large;
+  border: none;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.total-payment.bold {
+  font-size: x-large;
+  font-weight: bold;
+}
