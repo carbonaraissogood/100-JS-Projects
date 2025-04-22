@@ -1,9 +1,6 @@
 let totalAmount = 0;
 
 function calculateTotalAmount(billAmount, tipPercentage) {
-  console.log('im here');
-  console.log(billAmount);
-  console.log(tipPercentage);
   return totalAmount = billAmount * (1 + tipPercentage / 100);
 }
 
