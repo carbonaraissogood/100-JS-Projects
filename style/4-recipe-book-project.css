@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  color: white;
+  background-color: #001a40;
+  padding: 20px;
+  text-align: center;
+}
+.card {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Add space between the image, content, and button */
+  width: 90%;
+  max-width: 1500px;
+  background-color: white;
+  box-shadow: 0 2px 5px 3px rgba(77, 77, 77, 0.2);
+  margin: 20px auto;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.image {
+  width: 150px; /* Set a fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between the image and content */
+}
+
+.recipe-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ingredients {
+  font-size: 1.1rem;
+  color: #555; /* Use a lighter color for the ingredients text */
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.view-recipe-button {
+  font-size: 14px;
+  width: 300px;
+  padding: 10px 20px;
+  background-color: #002d62; /* Dark blue background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.view-recipe-button:hover {
+  background-color: #001a40; /* Darker blue on hover */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column; /* Stack items vertically */
+    text-align: left; /* Center-align text for smaller screens */
+  }
+
+  .image {
+    margin-right: 0; /* Remove right margin for stacked layout */
+    width: 100%; /* Make the image full width */
+  }
+
+  .recipe-title {
+    text-align: center;
+    margin: 15px;
+  }
+
+  .ingredients {
+    padding: 5px;
+  }
+
+  .view-recipe-button {
+    width: 100%; /* Make the button full width */
+    text-align: center;
+  }
+}
