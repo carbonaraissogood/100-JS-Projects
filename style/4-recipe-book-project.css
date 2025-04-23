@@ -44,15 +44,15 @@ body {
 }
 
 .ingredients {
-  font-size: 1.1rem;
+  font-size: 15px;
   color: #555; /* Use a lighter color for the ingredients text */
   line-height: 1.5;
-  margin: 10px;
+  margin: 0 15px;
 }
 
 .view-recipe-button {
   font-size: 14px;
-  width: 300px;
+  max-width: 300px;
   padding: 10px 20px;
   background-color: #002d62; /* Dark blue background */
   color: white;
@@ -89,6 +89,7 @@ body {
   }
 
   .view-recipe-button {
+    max-width: 1500px;
     width: 100%; /* Make the button full width */
     text-align: center;
   }
