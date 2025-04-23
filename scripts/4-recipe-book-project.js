@@ -17,7 +17,7 @@ recipes.forEach((recipe) => {
         <strong>Ingredients:</strong>${recipe.ingredients}
       </p>
 
-      <button class="view-recipe-button">VIEW RECIPE</button>
+      <button class="view-recipe-button"><a href="${recipe.link}">VIEW RECIPE</a></button>
     </div>
   `;
 
